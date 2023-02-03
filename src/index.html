@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Rocket Simulation</title>
+</head>
+<body>
+    <canvas style="width:50px;height:50px;" class="webgl" ></canvas>
+    <div class='row'>
+        <div class='col-3'>
+        <button  onClick="reset()">Reload</button>
+        <ul class="list-group" >        
+            <li class="list-group-item rocketPos">Rocket Position : </li>
+            <li class="list-group-item rocketHeight">Rocket Max Height : </li>
+            <li class="list-group-item payloadMass">Total Mass : </li>
+            <li class="list-group-item fuelMass">Fuel Mass : </li>
+            <li class="list-group-item velocity">Velocity : </li>
+            <li class="list-group-item drag">Drag Coefficient : </li>
+        </ul>
+    </div>
+    </div>
+
+    <div class='row'>
+        <div class='col-3'>
+    <div class='checkboxes'>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="1" checked>
+        <label class="form-check-label" for="flexRadioDefault1">
+          Default Shape
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="2" >
+        <label class="form-check-label" for="flexRadioDefault2">
+          2E
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="3" >
+        <label class="form-check-label" for="flexRadioDefault3">
+          2C
+        </label>
+         </div>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+    function reset() {
+        window.location.reload();
+    }
+
+</script>
+</html>
