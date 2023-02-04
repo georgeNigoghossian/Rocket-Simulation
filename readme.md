@@ -25,6 +25,6 @@ After running the project press "f" to make rocket fly .
 You can shift between "1" and "2" keys to change the view perspective . 
 
 ## Contributors 
-- @bshralhomsi
-- @FassehAlzaher
-- @OmarAlloushGit
+- [bshralhomsi](https://github.com/bshralhomsi)
+- [FassehAlzaher](https://github.com/FassehAlzaher)
+- [OmarAlloushGit](https://github.com/OmarAlloushGit)
